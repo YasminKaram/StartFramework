@@ -1,0 +1,72 @@
+<div class="portfolio text-center">
+    <div class="container pt-5">
+<h4 class="navbar-brand fs-1  fw-bold pb-2">PORTFOLIO COMPONENT</h4>
+     <div class="d-flex align-items-center justify-content-center mb-3">
+        <div class="icon"></div>
+        <i class="fas fa-star "></i>
+        <div class="icon"></div>
+    </div>
+
+    <div class="row gy-4 pb-5">
+        <div class="col-4 ">
+            <div class="inner">
+               <img   src="images/imgi_1_poert1.png" alt="Click to pop"  alt="home" >
+
+                 <div class="overlay ">
+                    <i class="fas fa-plus fs-1 fw-bold text-white"  (click)="openPopup('images/imgi_1_poert1.png')"></i>
+                </div>
+            </div>
+        </div>
+
+       
+ 
+        <div class="col-4">
+            <div class="inner">
+                <img src="images/imgi_2_port2.png" alt="sweet">
+                <div class="overlay">
+                   <i class="fas fa-plus fs-1 fw-bold text-white" (click)="openPopup('images/imgi_2_port2.png')"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="inner">
+                <img src="images/imgi_3_port3.png" alt="park">
+                 <div class="overlay">
+                   <i class="fas fa-plus fs-1 fw-bold text-white" (click)="openPopup('images/imgi_3_port3.png')"></i>
+                </div>
+            </div>
+        </div>
+         <div class="col-4 ">
+            <div class="inner">
+                <img src="images/imgi_1_poert1.png" alt="home">
+                 <div class="overlay">
+                   <i class="fas fa-plus fs-1 fw-bold text-white"  (click)="openPopup('images/imgi_1_poert1.png')"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="inner">
+                <img src="images/imgi_2_port2.png" alt="sweet">
+                 <div class="overlay">
+                   <i class="fas fa-plus fs-1 fw-bold text-white" (click)="openPopup('images/imgi_2_port2.png')"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="inner">
+                <img src="images/imgi_3_port3.png" alt="park">
+                 <div class="overlay">
+                   a<i class="fas fa-plus fs-1 fw-bold text-white" (click)="openPopup('images/imgi_3_port3.png')"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+     @if(isPopupOpen) {
+            <div class="popup-overlay" (click)="closePopup()">
+                <img [src]="popupImageUrl" alt="Full Image">
+            </div>
+        }
+

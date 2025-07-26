@@ -1,0 +1,25 @@
+.footer {
+    background-color: #2c3e50;
+    padding: 1rem;
+    text-align: center;
+}
+.footer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.icon {
+   border: white 2px solid ;
+    border-radius: 100%;
+    padding: 5px;
+    color: #ecf0f1;
+    margin-left: 10px;
+}
+.copy-bottom {
+    background-color: #1a252f;
+    color: #ecf0f1;
+    padding: 10px 0;
+    text-align: center;
+  
+   
+    height: 50px;
+}

@@ -22,6 +22,13 @@
               }
             ],
             "styles": [
+               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              
+              "node_modules/font-awesome/css/font-awesome.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              
+
+              
               "src/styles.css"
             ],
             "server": "src/main.server.ts",
@@ -80,11 +87,23 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+             
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              
+              "node_modules/font-awesome/css/font-awesome.min.css",
+                      "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              
+               "src/styles.css"
+            ],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js" 
             ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f3e86253-c204-4fa5-9ec8-f6194c099669"
   }
 }
